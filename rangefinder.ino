@@ -99,7 +99,7 @@ void loop()
   // Get position index for pendulum-like motion
 
   // Read range, get new segment size
-  rangerReadings = pingMean(5, 400);
+  rangerReadings = pingMean(10);
   int newHeight = (int)(rangerReadings * pixelsPerCm);
     if(newHeight > maxSegmentHeight)
       newHeight = maxSegmentHeight;
