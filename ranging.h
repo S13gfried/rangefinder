@@ -14,7 +14,7 @@
 #endif
 
 float ping(int pulseWidthMcs  = 2);
-float pingMean(int sampleCount = 10, int deltaMicros = 100, int pulseWidthMcs = 2);
+float pingMean(int sampleCount = 10, int deltaMicros = 10000, int pulseWidthMcs = 2);
 
 
 float ping(int pulseWidthMcs)
